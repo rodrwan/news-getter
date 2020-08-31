@@ -1,0 +1,19 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+type NewsItem {
+  id: ID!
+  headline: String!
+  resume: String!
+  link: String!
+  extracted_at: String!
+  created_at: String!
+}
+
+type Query {
+  getNewsByCountry(country: String!): NewsItem!
+  getNews: [NewsItem!]!
+}
+
+scalar Int64

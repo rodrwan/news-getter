@@ -1,0 +1,3 @@
+url: "https://elfaro.net/"
+link: ".page_home > .no-pad #col_madera_area a"
+headline: ".page_home > .no-pad #col_madera_area > #col_madera h1 a"
